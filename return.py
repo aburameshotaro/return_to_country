@@ -16,3 +16,14 @@ if powrot > dzis:
     print(f'Do mojego powrotu zostało: {powrot-dzis}')
 else:
     print('Jestem już w domu! :D')
+    
+odpowiedz = input('Wciąż mnie kochasz? ')
+odpowiedz = odpowiedz.casefold()
+if odpowiedz == 't' or odpowiedz == 'tak':
+    print('Ja ciebie też. Bardzo mocno <3')
+elif odpowiedz == 'n' or odpowiedz == 'nie':
+    print('A ja ciebie tak!')
+else:
+    print('Nie rozumiem')
+    
+koniec = input('Nacisnij enter aby zakończyć')
